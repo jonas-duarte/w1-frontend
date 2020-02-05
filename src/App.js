@@ -8,6 +8,10 @@ function App() {
   return (
     <div>
       <Field label="Nome" name="name"></Field>
+      <Field label="Cidade" name="name"></Field>
+      <Field label="Nome da mãe" name="name"></Field>
+      <Field label="Nome do pai" name="name"></Field>
+      <Field label="CPF" name="name"></Field>
       <br></br>
       <br></br>
       <br></br>
