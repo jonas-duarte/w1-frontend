@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/*
+export const color = {
+  black: "#060808",
+  darkestblue: "#245090",
+  darkblue: "#196DB6",
+  blue: "#00BCEA",
+  light blue #AACEFF,
+  white: "#F0F9FE",
+  grey: "#3C474D",
+*/
+body {
+  background-color: #aaceff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button */
+.w1Button {
+  background: linear-gradient(to bottom, #00bcea 5%, #196db6 100%);
+  border: 1px solid #3c474d;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #196db6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w1ButtonSecondary {
+  background: linear-gradient(to bottom, #f0f9fe 5%, #aaceff 100%);
+  border: 1px solid #3c474d;
+  text-shadow: 0px 1px 0px #aaceff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.w1Button:hover {
+  background: linear-gradient(to bottom, #196db6 5%, #00bcea 100%);
+}
+.w1ButtonSecondary:hover {
+  background: linear-gradient(to bottom, #aaceff 5%, #f0f9fe 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.w1Button:active {
+  position: relative;
+  top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Field */

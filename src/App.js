@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Button from "./components/button";
+import Field from "./components/field";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React your mother fucker
-        </a>
-      </header>
+    <div>
+      <Field label="Nome" name="name"></Field>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Button onClick={() => console.log("avançar")}>Avançar</Button>
+      <Button onClick={() => console.log("voltar")} theme="secondary">
+        Voltar
+      </Button>
     </div>
   );
 }
