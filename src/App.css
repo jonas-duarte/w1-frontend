@@ -23,7 +23,7 @@ body {
   background: #196db6;
   border-bottom: 1px solid #245090;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -31,10 +31,6 @@ body {
   max-width: 100%;
   max-height: 100%;
   cursor: pointer;
-}
-
-.w1Navbar img:hover {
-  background-color: #06080820;
 }
 
 .w1Navbar a {

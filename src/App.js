@@ -7,9 +7,9 @@ import Navbar from "./components/navbar";
 import img from "./logo.svg";
 
 const menu = [
-  { label: "Clientes", link: "clientes" },
-  { label: "Clientes", link: "clientes" },
-  { label: "Clientes", link: "clientes" }
+  { label: "Empresas", link: "empresas" },
+  { label: "Portifólio", link: "portifolio" },
+  { label: "Operações", link: "operações" }
 ];
 
 function App() {

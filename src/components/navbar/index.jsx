@@ -16,9 +16,11 @@ const Navbar = ({ img, menu }) => {
       >
         <img src={img}></img>
       </a>
-      {menu.map(m => (
-        <a href={m.link}>{m.label}</a>
-      ))}
+      <div>
+        {menu.map(m => (
+          <a href={m.link}>{m.label}</a>
+        ))}
+      </div>
     </div>
   );
 };
